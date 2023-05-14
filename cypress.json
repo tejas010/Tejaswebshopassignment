@@ -1,0 +1,10 @@
+{
+    "pageLoadTimeout":12000,
+    "defaultCommandTimeout":50000,
+    "videos":false,
+    "baseUrl":"https://demowebshop.tricentis.com/login",
+    "credentials":{
+        "Email":"tejaswaghmare3@gmail.com",
+        "password":"tejas@123"
+    }
+}
