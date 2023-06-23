@@ -10,6 +10,7 @@ describe('To check overall functionality of demoshop ', () => {
         cy.get('.header-links').find('ul').children().first().contains('Register').
             invoke("removeAttr", "href").click()
         cy.get('input[type="submit"]').should('be.visible')
+        //and
 
     })
 })
