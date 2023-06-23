@@ -1,5 +1,5 @@
 {
-    "pageLoadTimeout":12000,
+    "pageLoadTimeout":15000,
     "defaultCommandTimeout":50000,
     "videos":false,
     "baseUrl":"https://demowebshop.tricentis.com/login",

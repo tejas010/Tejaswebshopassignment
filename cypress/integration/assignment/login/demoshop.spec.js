@@ -59,6 +59,16 @@ describe('To check overall functionality of demoshop ', () => {
          
     })
 
+    // it.only('to valdate on hidden password ',function(){
+    //     cy.visit("https://demowebshop.tricentis.com/login")
+    //     //cy.get('#Email').type('tejaswaghmare3@gmail.com')
+    //     //cy.get('#Password').should('be.disabled')
+    //     cy.get('#newsletter-email').eq(1).type('tejaswaghmare3@gmail.com')
+    //     cy.get('#newsletter-result-block').eq(1).should('have.text','Thank you for signing up! A verification email has been sent. We appreciate your interest.')
+
+        
+    // })
+
 
     it('TC -05 Validate the login functionality with correct credentials', () => {
         cy.visit("https://demowebshop.tricentis.com/login")

@@ -32,3 +32,5 @@ Cypress.Commands.add('loginn',(url,Email,password)=>{
     cy.get('.button-1.login-button').click()
 
   })
+
+  
