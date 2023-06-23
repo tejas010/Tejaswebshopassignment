@@ -12,5 +12,5 @@ describe('To check overall functionality of demoshop ', () => {
         cy.get('input[type="submit"]').should('be.visible')
         //and
 
-    })
+    })hg
 })
